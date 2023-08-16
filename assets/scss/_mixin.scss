@@ -1,0 +1,23 @@
+@mixin ipad () {
+  @media(max-width:990px) {
+    @content
+  }
+};
+
+@mixin mobile () {
+  @media(max-width:767px) {
+    @content
+  }
+};
+
+@mixin sm-mobile () {
+  @media(max-width:375px) {
+    @content
+  }
+};
+
+@mixin flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

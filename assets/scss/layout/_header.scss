@@ -1,4 +1,33 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.navbar-logo {
+  width: 80px;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.nav-link {
+  font-size: $font-size-m;
+  color: $white;
+}
+
+@include mobile() {
+  .navbar-logo {
+    align-self: flex-start;
+    padding: 16px 0 16px 16px;
+  }
+  .navbar-nav {
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 0;
+    width: 100%;
+  }
+  .nav-item {
+    width: 50%;
+    border: 1px solid $white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+  }
 }

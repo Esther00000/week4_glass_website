@@ -5,9 +5,11 @@
 @import './reset';
 @import './variable';
 
+
+
 @import './mixin';
-@import './grid';
 @import './base';
+@import './grid';
 @import './utilities';
 
 @import './component/button';
@@ -19,3 +21,4 @@
 
 
 @import './pages/index.scss';
+@import './pages/glass.scss';

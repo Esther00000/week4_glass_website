@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Noto Sans TC', 'Roboto', sans-serif;
+  font-family: $font-family;
   line-height: 1.5;
 }
 
@@ -21,6 +21,10 @@ a {
 section {
   padding-top: 80px;
   padding-bottom: 80px;
+  @include mobile() {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 
 .container  {

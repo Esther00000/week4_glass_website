@@ -5,6 +5,10 @@
   background-position: 50% 50%;
   padding: 296px 0;
 }
+.home-icon {
+  width: 100px;
+  height: 100px;
+}
 .design-section{
   background-image: url("../images/index-bg.png");
   background-position: center;
@@ -31,6 +35,8 @@
 .form-input {
   width: 100%;
   padding: 6px 12px;
+  background-color: transparent;
+  border: 1px solid $black;
 }
 .input-btn {
   width: 100%;
@@ -38,15 +44,25 @@
   border: none;
   font-weight: $font-weight-bold;
   margin-top: 40px;
+  cursor: pointer;
+  &:hover{
+    background-color: $secondary;
+  }
 }
 @include ipad(){
   .banner {
     background-image: url("../images/home-header-sm.png");
+  }
+  .design-section{
+    background-image: url("../images/index-bg-md.png");
   }
 }
 
 @include mobile() {
   .banner {
     padding: 144px 0;
+  }
+  .design-section{
+    background-image: url("../images/index-bg-sm.png");
   }
 }

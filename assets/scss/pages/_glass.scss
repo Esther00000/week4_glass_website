@@ -1,0 +1,50 @@
+.glass-nav .nav-item:hover {
+  border-bottom: 8px solid $primary;
+}
+
+.product-header-sm {
+  width: 384px;
+}
+
+.box {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+}
+
+.box-dark {
+  background-color: $box-drak-brown;
+}
+
+.box-brown {
+  background-color: $box-brown;
+}
+.pagination {
+  font-size: 18px;
+  a {
+    padding: 11px 13px;
+    border-color:  $dark-gray;
+  }
+  .next{
+    background-color: $background-2;
+  }
+  a:hover,.active {
+    background-color: $black;
+    color: $white;
+  }
+  .next:hover,.previous:hover{
+    color: $dark-gray;
+    background-color: $background-2;
+  }
+  @include mobile() {
+    font-size: $font-size-base;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+}
+@include ipad() {
+  .glass-section .container{
+    max-width: none;
+    padding: 0;
+  }
+}

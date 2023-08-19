@@ -1,11 +1,14 @@
 
 // 文字
-$font-family : 'Noto Sans TC', 'Roboto', sans-serif;
+$font-family:'Roboto','Noto Sans TC', sans-serif;
+$font-family-ch : 'Noto Sans TC', sans-serif;
+$font-family-en :  'Roboto', sans-serif;
 
 $font-size-base: 1rem; // 16px
 $font-size-sm : $font-size-base * 0.875; //14px
 $font-size-m : $font-size-base * 1.25; //20px
 $font-size-lg : $font-size-base * 1.5; // 24px
+$font-size-l : $font-size-base * 2; // 32px
 $font-size-xl : $font-size-base * 2.25; // 36px
 $font-size-xxl : $font-size-base * 3; // 48px
 
@@ -13,7 +16,7 @@ $h1-font-size : $font-size-base * 4; // 64px
 $h1-font-sm : $font-size-base * 1.5; // 64px
 
 
-
+$font-size-xl-en: $font-size-base * 2.625;
 
 $font-weight-normal:          400;
 $font-weight-medium:          500;
@@ -23,10 +26,19 @@ $font-weight-bolder:          900;
 // 顏色
 $primary: #AA0601;
 $secondary: #650300;
+$dark-gray: #555555;
 $light-gray:#707070;
 $background:#FBF2F2;
+$background-2:#F2F2F2;
 $black: #000000;
 $white: #FFFFFF;
+
 $border-color: #DEE2E6;
+$border-color-2: #DCDCDC;
+
+
 $shadow-color-16: rgba(0, 0, 0, 0.16);
+
+$box-drak-brown:#5F3E2D;
+$box-brown:#B75929;
 

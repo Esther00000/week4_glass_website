@@ -1,6 +1,11 @@
-.glass-nav .nav-item:hover {
-  border-bottom: 8px solid $primary;
+.glass-nav .glass-nav-item {
+  border: 1px solid $border-color-2;
+  &:hover {
+    border-bottom: 8px solid $primary;
+  }
 }
+
+
 
 .product-header-sm {
   width: 384px;
@@ -23,7 +28,6 @@
   font-size: 18px;
   a {
     padding: 11px 13px;
-    border-color:  $dark-gray;
   }
   .next{
     background-color: $background-2;

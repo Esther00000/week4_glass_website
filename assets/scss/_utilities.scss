@@ -171,14 +171,19 @@
   font-weight: $font-weight-bolder;
   font-style: italic;
 }
+.link-dark-gray {
+  color: $dark-gray
+}
 /* border */
 .border {
-  border: 1px solid $border-color-2;
+  border: 1px solid;
 }
 .border-bottom {
   border-bottom: 1px solid $border-color;
 }
-
+.border-dark-gray {
+  border-color: $dark-gray;
+}
 @include ipad() {
   .d-md-none{
     display: none;
@@ -205,6 +210,7 @@
     padding-right: 12px;
     padding-left: 12px;
   }
+  
   .py-md-16{
     padding-top: 16px;
     padding-bottom: 16px;
@@ -252,6 +258,10 @@
   }
   .pb-sm-0{
     padding-bottom: 0;
+  }
+  .py-sm-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
   .py-sm-24 {
     padding-top: 24px;
